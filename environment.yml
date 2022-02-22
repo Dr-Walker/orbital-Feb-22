@@ -9,7 +9,10 @@ dependencies:
   - scipy
   - jupyter
   - nbformat
-  -PyQt5
+  -PyQt5:
+    -QtCore
+    -QtGui
+    -QtWidgets
   - pip
   - pip:
     - nmrglue
