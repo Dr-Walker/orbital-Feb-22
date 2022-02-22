@@ -1,1 +1,18 @@
 
+name: Walker_repo
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - pandas
+  - matplotlib
+  - scipy
+  - jupyter
+  - nbformat
+  -mayavi
+  -math
+  -PyQt5
+  - pip
+  - pip:
+    - nmrglue
