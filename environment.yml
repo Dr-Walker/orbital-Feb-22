@@ -10,9 +10,9 @@ dependencies:
   - scipy
   - jupyter
   - nbformat
-  -mayavi
   -math
   -PyQt5
   - pip
   - pip:
     - nmrglue
+    - mayavi
